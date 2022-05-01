@@ -6,6 +6,7 @@
 body {
     /* background-color: #F1EAEA; */
     background-color: #F1EAEA;
+    overflow-x: hidden;
 
 }
 
@@ -29,9 +30,9 @@ i {
 
 .navbar ul {
     display: flex;
-    margin-right: 70px;
-    padding: 20px;
-    margin-left: 20%;
+    margin-right: -10%;
+    /* padding: 20px; */
+    margin-left: 10%;
     text-decoration: none;
 }
 
@@ -353,10 +354,10 @@ i {
 }
 
 .btn{
-    margin-left: 1.5%;
+    margin-left: -1%;
     position: absolute;
     margin-top: 6px;
-    border-radius: 6%;
+    border-radius: 7%;
     border: none;
     padding: 15px;
     width: 10%;
@@ -426,12 +427,18 @@ form h3{
 }
 .images{
     float: right;
-    margin-top: -42%;
+    margin-top: -45%;
     width: 30%;
-    margin-right: 10%;
+    margin-right: 13%;
     background-image: url(images/colo.png);
 }
-
+.conatinerss{
+    width: 90%;
+    height: 220px;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 20%;
+}
 
 
 
